@@ -1,0 +1,77 @@
+.col-1 {
+    width: 8%;
+}
+
+.col-2 {
+    width: 16%;
+}
+
+.col-3 {
+    width: 24%;
+}
+
+.col-4 {
+    width: 33%;
+}
+
+.col-5 {
+    width: 41%;
+}
+
+.col-6 {
+    width: 49%;
+}
+
+.col-7 {
+    width: 57%;
+}
+
+.col-8 {
+    width: 66%;
+}
+
+.col-9 {
+    width: 74%;
+}
+
+.col-10 {
+    width: 83%;
+}
+
+.col-11 {
+    width: 91%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.position {
+    position: relative;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
