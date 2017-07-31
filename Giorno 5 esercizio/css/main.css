@@ -1,0 +1,147 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.purple {
+    width: 49%;
+    height: 100%;
+    background: linear-gradient(to top, #6600ff 18%, #cc33ff 100%);
+    display: inline-block;
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 5%;
+}
+
+p {
+    color: white;
+    margin-bottom: 250px;
+}
+
+nav {
+    margin-bottom: 250px;
+}
+
+ul {
+    width: auto;
+}
+
+nav ul li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+}
+
+.logo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imgsection {
+    float: right;
+    width: 49%;
+    padding-right: 1.5%;
+}
+
+.container1 {
+    width: 49%;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.container2 {
+    float: right;
+    width: 49%;
+}
+
+.space {
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 700px) {
+    .container1 {
+        width: 100% !important;
+    }  
+
+    .container2 {
+        width: 100%;
+    }
+
+    .imgsection {
+        width: 100%;
+    }
+
+    .purple {
+        width: 100%;
+    }
+}

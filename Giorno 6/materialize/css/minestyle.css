@@ -51,3 +51,7 @@ section {
     padding: 5px !important;
     margin: 5px;
 }
+
+a {
+    color: white;
+}

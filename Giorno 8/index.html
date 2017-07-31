@@ -1,0 +1,130 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lorem pizze</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link rel="stylesheet" href="materialize/css/minestyle.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="red">
+        <div class="nav nav-wrapper ">
+        <a href="index.html" class="brand-logo">Lorem pizze</a>
+        <a href="#" data-activates="slide-out" class="button-collapse right"><i class="material-icons">menu</i></a>
+        
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#position">Dove siamo</a></li>
+            <li><a href="#contacts">Contatti</a></li>
+            <li><a href="#justeat">Just Eat</a></li>
+        </ul>
+        
+        <ul id="slide-out" class="side-nav">
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#position">Dove siamo</a></li>
+            <li><a href="#contacts">Contatti</a></li>
+            <li><a href="#justeat">Just Eat</a></li>
+        </ul>
+
+        </div>
+    </nav>
+        
+
+    <div class="carousel carousel-slider center" data-indicators="true">
+        <div class="carousel-item red white-text row" id="one">
+            <div class="carousel-content col m6 s12 offset-m3">
+                <h2>First Panel</h2>
+                <p class="white-text">This is your first panel</p>
+            </div>
+        </div>
+        <div class="carousel-item white-text row" id="two">
+            <div class="carousel-content col m6 s12 offset-m3">
+                <h2>Second Panel</h2>
+                <p class="white-text">This is your second panel</p>
+            </div>
+        </div>
+        <div class="carousel-item white-text row" id="three">
+            <div class="carousel-content col m6 s12 offset-m3">
+                <h2>Third Panel</h2>
+                <p class="white-text">This is your third panel</p>
+            </div>
+        </div>
+        <div class="carousel-item white-text row" id="four">
+            <div class="carousel-content col m6 s12 offset-m3">
+                <h2>Fourth Panel</h2>
+                <p class="white-text">This is your fourth panel</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="row center">   
+        <div class="green darken-3 col s12 m4 submenu" id="uno">
+            <h3>MENU</h3>
+        </div>
+
+        <div class="darken-1 col s12 m4 submenu" id="due">
+            <h3>ORARI</h3>
+        </div>
+
+        <div class="red darken-2 col s12 m4 submenu" id="tre">
+            <h3>JUST EAT</h3>
+        </div>
+    </section>
+
+    <div id="position">
+        <iframe
+            frameborder="0" style="border:0; width: 100%; height: 400px;"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAN1sNNzngOC6NAQ1rcI9ZvUh9EnW6ioeY&q=pescara,italy" allowfullscreen>
+        </iframe>
+    </div>
+    <footer class="page-footer red" id="contacts">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Contatti</h5>
+                <ul>
+                    <li>Indirizzo:</li>
+                    <li>Telefono:</li>
+                    <li>Email:</li>
+                </ul>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Social</h5>
+                <ul>
+                  <li class="inline"><a class="grey-text text-lighten-3" href="#!"><i class="medium fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                  <li class="inline"><a class="grey-text text-lighten-3" href="#!"><i class="medium fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li class="inline"><a class="grey-text text-lighten-3" href="#!"><i class="medium fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Copyright Stefano Bavota
+            <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+          </div>
+    </footer>
+    
+    <script src="http://code.jquery.com/jquery-2.2.4.js"
+            integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+            crossorigin="anonymous">
+    </script>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <script>
+            $('.carousel.carousel-slider').carousel({fullWidth: true});
+            $(".button-collapse").sideNav();
+    </script>
+
+</body>
+
+    
+
+</html>
